@@ -1,18 +1,15 @@
 ## library packages
 
-
-if (!require("BiocManager", quietly = TRUE)) install.packages("BiocManager")
-if (!require("DOSE", quietly = TRUE)) BiocManager::install("DOSE")
-
 if (!require("reshape2", quietly = TRUE)) install.packages("reshape2")
 if (!require("ggplot2", quietly = TRUE)) install.packages("ggplot2")
 if (!require("devtools", quietly = TRUE)) install.packages("devtools")
 if (!require("DT", quietly = TRUE)) devtools::install_github('rstudio/DT')
+if (!require("ggnewscale", quietly = TRUE)) install.packages("ggnewscale")
 
 
 if (!require("gplots", quietly = TRUE)) install.packages("gplots")
 if (!require("biomaRt", quietly = TRUE)) install.packages("biomaRt")
-if (!require("require("RBGL", quietly = TRUE)) install.packages("require("RBGL")
+if (!require("RBGL", quietly = TRUE)) install.packages("RBGL")
 if (!require("dplyr", quietly = TRUE)) install.packages("dplyr")
 if (!require("tidyr", quietly = TRUE)) install.packages("tidyr")
 if (!require("RColorBrewer", quietly = TRUE)) install.packages("RColorBrewer")
@@ -37,3 +34,4 @@ if (!require("esquisse", quietly = TRUE)) install.packages("esquisse")
 if (!require("shinythemes", quietly = TRUE)) install.packages("shinythemes")
 if (!require("gridExtra", quietly = TRUE)) install.packages("gridExtra")
 if (!require("grid", quietly = TRUE)) install.packages("grid")
+
