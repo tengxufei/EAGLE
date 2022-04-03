@@ -45,15 +45,22 @@ You may use this app to construct functional analysis by
 <a name="input"></a>
 ### Input Data Format 
 
-- For Over-Representation Analysis, users need to provide a list of their interested genes and a list of background genes, if the list of background genes is not provided, all annotated genes in selected functional datasets will be considered (We strongly suggest a upload list of background genes to avoid virtual low *p* value). Note that the gene lists must submitted in a gene symbol format (For human, HGNC symbols are suggested).
+- For Over-Representation Analysis and Subpathway analysis, users need to provide a list of their interested genes and a list of background genes, if the list of background genes is not provided, all annotated genes in selected functional datasets will be considered (We strongly suggest a upload list of background genes to avoid virtual low *p* value). Note that the gene lists must submitted in a gene symbol format (For human, HGNC symbols are suggested).
 
-- For GSEA analysis, users need to provide a matrix contains their interested genes (first column) and their scores (universally the fold change of methylation or expression value in two or more conditions).
+- For Gene Set Enrichment Analysis (GSEA), users need to provide a matrix contains their interested genes (first column) and their scores (universally the fold change of methylation or expression value in two or more conditions).
+
+<!-- 
+<div align="center">
+  <img src="EAGLE.F1.png" height="200" /></div>
+  <br><p align="center">Figure 1 Example Input file</p>
+</div> 
+-->
 
 <a name="sets"></a>
 ### Functional data sets
 
 #### Targets of m6A regulators
-Potential targets of m6A regulators (writers, erasers, and readers) indicated by high-throughput sequencing such as CLIP-Seq, RIP-seq and ChIP-seq, etc.
+Potential targets of m6A regulators (writers, erasers, and readers) indicated by high-throughput sequencing such as CLIP-Seq, RIP-seq and ChIP-seq, etc. 
 
 #### Interaction targets of lncRNA
 Potential targets of lncRNAs are
@@ -64,7 +71,6 @@ Substrate of kinase are retrieved from [PhosphoSitePlus](https://www.phosphosite
 
 #### MSigDB (Molecular Signatures Database)
 The description of MSigDB Collections is provided here: <http://www.gsea-msigdb.org/gsea/msigdb/collections.jsp>
-
 
 
 <a name="result"></a>
